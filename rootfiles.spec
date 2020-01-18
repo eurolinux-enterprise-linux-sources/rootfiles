@@ -1,7 +1,7 @@
 Summary: The basic required files for the root user's directory
 Name: rootfiles
 Version: 8.1
-Release: 10%{?dist}
+Release: 11%{?dist}
 License: Public Domain
 Group: System Environment/Base
 
@@ -42,6 +42,9 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) /root/.[A-Za-z]*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 8.1-11
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 8.1-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
